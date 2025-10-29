@@ -8,11 +8,11 @@ A simple Claude Code marketplace for custom plugins.
 agents/
 ├── .claude-plugin/
 │   └── marketplace.json       # Marketplace manifest
-└── hello-plugin/              # First plugin
+└── spin-doctor/               # Spin Doctor plugin
     ├── .claude-plugin/
     │   └── plugin.json        # Plugin metadata
     └── commands/
-        └── hello.md           # /hello command
+        └── spin.md            # /spin command
 ```
 
 ## Installation
@@ -20,8 +20,8 @@ agents/
 From within Claude Code, run:
 
 ```
-/plugin marketplace add /Users/inkredabull/Code/inkredabull/agents
-/plugin install hello-plugin@my-agent-marketplace
+/plugin marketplace add https://github.com/inkredabull/agents
+/plugin install spin-doctor@my-agent-marketplace
 ```
 
 ## Usage
@@ -29,10 +29,10 @@ From within Claude Code, run:
 After installation, you can use:
 
 ```
-/hello
+/spin [your message or situation]
 ```
 
-This will trigger the hello command from the plugin.
+The Spin Doctor will reframe any message or situation in a positive, constructive way!
 
 ## Next Steps
 

@@ -5,9 +5,9 @@
   },
   "plugins": [
     {
-      "name": "hello-plugin",
-      "source": "./hello-plugin",
-      "description": "A simple hello world plugin"
+      "name": "spin-doctor",
+      "source": "./spin-doctor",
+      "description": "Put a positive spin on any message or situation"
     }
   ]
 }
