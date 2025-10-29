@@ -1,0 +1,13 @@
+{
+  "name": "my-agent-marketplace",
+  "owner": {
+    "name": "inkredabull"
+  },
+  "plugins": [
+    {
+      "name": "hello-plugin",
+      "source": "./hello-plugin",
+      "description": "A simple hello world plugin"
+    }
+  ]
+}
