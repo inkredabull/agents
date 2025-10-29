@@ -21,7 +21,7 @@ From within Claude Code, run:
 
 ```
 /plugin marketplace add https://github.com/inkredabull/agents
-/plugin install spin-doctor@my-agent-marketplace
+/plugin install spin-doctor@quite-an-inkredabull-marketplace
 ```
 
 ## Usage
