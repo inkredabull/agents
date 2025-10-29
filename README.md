@@ -1,4 +1,4 @@
-# My Agent Marketplace
+# Quite an Inkredabull Marketplace
 
 A simple Claude Code marketplace for custom plugins.
 
